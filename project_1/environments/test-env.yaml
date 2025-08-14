@@ -1,0 +1,14 @@
+apiVersion: xbiglylabs.co.za/v1alpha1
+kind: Environment
+metadata:
+  name: test-env
+spec:
+  writeConnectionSecretToRef:
+    name: test-env
+  compositionSelector:
+    matchLabels:
+      type: development
+  test: True
+
+# When I push this to my repo ArgoCD will pick it up and automatically sync it with my local K8s cluster
+# Let's try it out, then I will show you what that looks like
