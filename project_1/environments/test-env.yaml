@@ -1,0 +1,12 @@
+apiVersion: xbiglylabs.co.za/v1alpha1
+kind: Environment
+metadata:
+  name: test-env
+spec:
+  writeConnectionSecretToRef:
+    name: test-env
+  compositionSelector:
+    matchLabels:
+      type: development
+  test: True
+
