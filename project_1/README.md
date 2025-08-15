@@ -18,5 +18,5 @@
 
 ## Diving Deeper
 
-* [Environment XRD Explanation](XRD_EXPLANATION.md)
-* [Environment Composition Explanation](COMPOSITION_EXPLANATION.md)
+* [Environment XRD Explanation](docs/XRD_EXPLANATION.md)
+* [Environment Composition Explanation](docs/COMPOSITION_EXPLANATION.md)
