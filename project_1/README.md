@@ -15,3 +15,8 @@
 * Add the Environment Resource XRD and XR to cluster:
   * `kubectl apply -f environment-xrd.yaml`
   * `kubectl apply -f environment-composition.yaml`
+
+## Diving Deeper
+
+* [Environment XRD Explanation](XRD_EXPLANATION.md)
+* [Environment Composition Explanation](COMPOSITION_EXPLANATION.md)
